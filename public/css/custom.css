@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'SutonnyMJ';
+    src: url('../fonts/SutonnyMJ.woff2') format('woff2'),
+        url('../fonts/SutonnyMJ.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+.map{
+    height: 200px;
+    margin: 5px;
+}
+
+
+.logo-src{
+	height: 120px !important;
+	width: 180px !important;
+	background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size:contain !important;
+}
+
+
+
+
+.widget-content .widget-numbers {
+    font-weight: bold;
+    font-size: 1.8rem;
+    display: block;
+}
+
+
+.text-blue{
+	color: rgb(47, 44, 78);
+}
+
+.myImg {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+  }
+.chat-user-name{
+	color: rgb(47, 44, 78);
+	font-size: 0.8rem;
+}
+
+#red-dot{
+	display: none;
+}
+/* .btn-link {
+    font-weight: 400;
+    color: transparent;
+} */
+
+.nav-item.nav-item-divider {
+  
+    background: transparent;
+}
+.dropdown-menu-header {
+
+    margin-bottom: 0;
+
+}
+/* .btn-link:hover {
+    color: transparent !important;
+    text-decoration: underline;
+} */
+  .thumb-image{
+
+    cursor: pointer;
+	width: 35px;
+
+  }
+
+  .text-bold{
+	  font-weight: bold;
+  }
+  
+  .myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+	display: none; 
+	
+	z-index: 2147483647;
+	padding-top: 100px; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%; 
+	overflow: auto; 
+	background-color: rgb(0,0,0); 
+	background-color: rgba(0,0,0,0.9); 
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+	margin: auto;
+	display: block;
+	width: 100%;
+	max-width: 700px;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+	-webkit-animation-name: zoom;
+	-webkit-animation-duration: 0.6s;
+	animation-name: zoom;
+	animation-duration: 0.6s;
+  }
+  
+  .modal-backdrop{
+	  display: none;
+  }
+  @-webkit-keyframes zoom {
+	from {-webkit-transform:scale(0)} 
+	to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+	from {transform:scale(0)} 
+	to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+	.modal-content {
+	  width: 100%;
+	}
+  }
+
+
+  @media (max-width: 991.98px){
+	.popover, .dropdown-menu {
+		position: fixed !important;
+		z-index: 50;
+		left: 5% !important;
+		top: 15% !important;
+		width: 90% !important;
+		transform: translateY(-50%) !important;
+		min-width: 10px !important;
+	}
+}
+
+
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    /* height: 36px; */
+    padding: 4px;
+    height: 38px;
+    user-select: none;
+    -webkit-user-select: none; 
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 26px;
+    position: absolute;
+    top: 6px;
+    right: 1px;
+    width: 20px;
+}
+
+
+.pagination{
+  margin-top: 20px;
+    justify-content: flex-end;
+}
+
+
+.datepicker-container{
+  z-index: 9999999999 !important;
+}
